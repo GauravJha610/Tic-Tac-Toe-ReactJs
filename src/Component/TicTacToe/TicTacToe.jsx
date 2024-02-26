@@ -26,6 +26,9 @@ export const TicTacToe = () => {
         if(lock){
             return 0;
         }
+        if(data[num]!==""){
+            return 0;
+        }
         if(count%2===0){
             e.target.innerHTML=`<img src='${cross_icon}'>`;
             data[num]="X";
