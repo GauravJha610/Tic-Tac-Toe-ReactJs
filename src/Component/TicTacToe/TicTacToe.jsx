@@ -86,7 +86,7 @@ export const TicTacToe = () => {
         setLock(false);
         data=["","","","","","","","",""];
         titleRef.current.innerHTML=`Tic Tac Toe Game In <span>React</span>`;
-        box_array.map((e)=>    e.current.innerHTML="");
+        box_array.map((e)=> e.current.innerHTML="" );
         setCount(0);
     }
   return (
